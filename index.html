@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maps API</title>
-    <script src="index.js" defer></script>
+    <script
+      async="false"
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=&libraries=places&callback=initMap"
+    ></script>
+    <script src="index.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Maps API for DH</h1>
+    <h1>Websites by Geo</h1>
     <div>
       Goal: query businesses with Google Maps API and return their information.
     </div>
+    <div id="map"></div>
   </body>
 </html>
